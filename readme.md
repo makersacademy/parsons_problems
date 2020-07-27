@@ -16,8 +16,11 @@ If you type out each line, rather than copy-pasting, you'll also build some musc
 * And you should see the total printed to the terminal
 
 `number1 + number2`
+
 `end`
+
 `def add(number1, number2)`
+
 `p add(1,2)`
 
 ## Now choose from this list
