@@ -25,4 +25,4 @@ If you type out each line, rather than copy-pasting, you'll also build some musc
 
 ## Now choose from this list
 
-* [FizzBuzz](./fizzbuzz.md)
+* [FizzBuzz](./fizzbuzz/readme.md)

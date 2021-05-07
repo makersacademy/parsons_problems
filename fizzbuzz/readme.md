@@ -29,28 +29,16 @@ If you were playing with one other person
 >You: Fizz<br>
 >Them: Buzz<br>
 
-## Code
+## Exercise
 
-Create a new file called fizzbuzz.rb and rearrange these lines of code to implement FizzBuzz.  Annotate each one so that you can show, to yourself, that you know what each line does.
+Inside the lib directory, you'll find a file called `fizzbuzz.rb`.  In it, you'll find several lines of commented out code.
 
-Once you have all these lines of code in your new `fizzbuzz.rb` file, and they are in the correct order, you should be able to do `ruby fizzbuzz.rb` to execute the code, with no errors, and see the computer play fizzbuzz for the first positive 100 integters.
+Your task is to uncomment and rearrange the code to implement FizzBuzz – you are not allowed to make any other changes to the file.
 
-`dividend % divisor == 0`
+If you're feeling lost, start by annotating each line with a short summary of what it's doing.
 
-`return "Buzz" if is_divisible(integer, 5)`
+You can test your implementation of fizzbuzz by running RSpec and / or by using the program manually.
 
-`end`
+To run the tests, go to your terminal and make sure you are in the fizzbuzz directory, then execute `rspec`.
 
-`return "Fizz" if is_divisible(integer, 3)`
-
-`return integer`
-
-`end`
-
-`def is_divisible(dividend, divisor)`
-
-`return "FizzBuzz" if is_divisible(integer, 15)`
-
-`def fizzbuzz(integer)`
-
-`(1..100).each {|integer| p fizbuzz(integer)}`
+To run the program manually, go to your terminal and make sure you are in the fizzbuzz directory, then execute `ruby ./lib/fizzbuzz.rb`
