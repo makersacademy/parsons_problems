@@ -31,14 +31,10 @@ If you were playing with one other person
 
 ## Exercise
 
-Inside the lib directory, you'll find a file called `fizzbuzz.rb`.  In it, you'll find several lines of commented out code.
-
-Your task is to uncomment and rearrange the code to implement FizzBuzz – you are not allowed to make any other changes to the file.
-
-If you're feeling lost, start by annotating each line with a short summary of what it's doing.
+Inside the lib directory, you'll find a file called `fizzbuzz.rb`.  In it, you'll find several lines of commented out code. Your task is to uncomment and rearrange the code to implement FizzBuzz – you are not allowed to make any other changes to the file. If you're feeling lost, start by annotating each line with a short summary of what it's doing.
 
 You can test your implementation of fizzbuzz by running RSpec and / or by using the program manually.
 
-To run the tests, go to your terminal and make sure you are in the fizzbuzz directory, then execute `rspec`.
+- To run the tests, go to your terminal and make sure you are in the fizzbuzz directory, then execute `rspec`.
 
-To run the program manually, go to your terminal and make sure you are in the fizzbuzz directory, then execute `ruby ./lib/fizzbuzz.rb`
+- To run the program manually, go to your terminal and make sure you are in the fizzbuzz directory, then execute `ruby ./lib/fizzbuzz.rb`
