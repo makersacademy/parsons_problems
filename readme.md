@@ -25,4 +25,9 @@ If you type out each line, rather than copy-pasting, you'll also build some musc
 
 ## Now choose from this list
 
-* [FizzBuzz](./fizzbuzz/readme.md)
+In each of the following directories, you'll find a readme that details the task and some jumbled lines of code that you need to write out (not copy paste) in the correct order to implement the desired program.
+
+You'll also find that each problem comes with a few tests.  When you're done, they should all pass!
+
+* [Greeter](./greeter)
+* [FizzBuzz](./fizzbuzz)

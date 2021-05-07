@@ -12,11 +12,11 @@ FizzBuzz is a counting game where specific numbers are replaced by words.
 
 ## Examples
 
-If you were playing FizzBuzz alone
+### Playing FizzBuzz alone
 
 >You: 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz... and so on
 
-If you were playing with one other person
+### Playing with one other person
 
 >You: 1<br>
 >Them: 2<br>
@@ -29,12 +29,26 @@ If you were playing with one other person
 >You: Fizz<br>
 >Them: Buzz<br>
 
-## Exercise
+## Code
 
-Inside the lib directory, you'll find a file called `fizzbuzz.rb`.  In it, you'll find several lines of commented out code. Your task is to uncomment and rearrange the code to implement FizzBuzz – you are not allowed to make any other changes to the file. If you're feeling lost, start by annotating each line with a short summary of what it's doing.
+Write out these lines, in the correct order, in `./lib/fizzbuzz.rb` to implement FizzBuzz.
 
-You can test your implementation of fizzbuzz by running RSpec and / or by using the program manually.
+`dividend % divisor == 0`
 
-- To run the tests, go to your terminal and make sure you are in the fizzbuzz directory, then execute `rspec`.
+`return "Buzz" if is_divisible(integer, 5)`
 
-- To run the program manually, go to your terminal and make sure you are in the fizzbuzz directory, then execute `ruby ./lib/fizzbuzz.rb`
+`end`
+
+`return "Fizz" if is_divisible(integer, 3)`
+
+`return integer`
+
+`end`
+
+`def is_divisible(dividend, divisor)`
+
+`return "FizzBuzz" if is_divisible(integer, 15)`
+
+`def fizzbuzz(integer)`
+
+`(1..100).each {|integer| p fizbuzz(integer)}`
