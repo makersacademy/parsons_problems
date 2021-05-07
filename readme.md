@@ -9,11 +9,8 @@ If you type out each line, rather than copy-pasting, you'll also build some musc
 **But remember** that you should not edit any of the lines.  Your only job is to rearrange what is already there.
 
 ## An example
-* Create a new file called add.rb
-* Add these three lines of code to your new file, one by one, in the correct order
-* Run the file by doing `ruby add.rb`
-* You should see no errors
-* And you should see the total printed to the terminal
+
+The task is to implement an add method and here's the code...
 
 `number1 + number2`
 
@@ -23,9 +20,19 @@ If you type out each line, rather than copy-pasting, you'll also build some musc
 
 `p add(1,2)`
 
+To complete this problem, you'd need to rearrange those lines to become...
+
+```ruby
+def add(number1, number2)
+  number1 + number2
+end
+
+p add(1,2)
+```
+
 ## Now choose from this list
 
-In each of the following directories, you'll find a readme that details the task and some jumbled lines of code that you need to write out (not copy paste) in the correct order to implement the desired program.
+In each of the following directories, you'll find a readme that details the task and some jumbled lines of code that you need to type out in the correct order to implement the desired program.
 
 You'll also find that each problem comes with a few tests.  When you're done, they should all pass!
 
