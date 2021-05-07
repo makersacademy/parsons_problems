@@ -1,6 +1,6 @@
 # Greeter
 
-This program consists of one method, which takes a string as an argument and then prints "Hello, <string>" to the screen.  It makes more sense if the string you provide is a name, but it will work with any string!
+This program consists of one method, which takes one argument, such as "Frances", and then prints "Hello, Frances" to the screen.  It makes more sense if the string provided is a name, but it will _work_ with any string or pretty much anything else that's used!
 
 ## Code
 
