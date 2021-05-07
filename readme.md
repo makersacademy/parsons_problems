@@ -38,3 +38,4 @@ You'll also find that each problem comes with a few tests.  When you're done, th
 
 * [Greeter](./greeter)
 * [FizzBuzz](./fizzbuzz)
+* [String calculator](./string_calculator)
